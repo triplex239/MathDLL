@@ -40,3 +40,9 @@ namespace MathDLL
         }
     }
 }
+
+/* question 9
+select prod.product, cat.category 
+from prod left join cat 
+on prod.cat_id = cat.id
+*/
